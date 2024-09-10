@@ -44,7 +44,7 @@ func GetDataAndSort(urls []string, name string) []Res {
 			if strings.Contains(v.URL, name) {
 				slice = append(slice, Res{
 					Url:  v.URL,
-					Name: name,
+					Name: v.Title,
 				})
 			}
 		}
