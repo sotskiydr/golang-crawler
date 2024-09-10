@@ -1,7 +1,7 @@
 package main
 
 import (
-	"crawler/dataworker"
+	"dataworker"
 	"flag"
 	"fmt"
 	"loader"
