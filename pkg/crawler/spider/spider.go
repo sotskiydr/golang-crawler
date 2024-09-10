@@ -3,12 +3,10 @@
 package spider
 
 import (
+	"crawler"
+	"golang.org/x/net/html"
 	"net/http"
 	"strings"
-
-	"crawler/pkg/crawler"
-
-	"golang.org/x/net/html"
 )
 
 // Service - служба поискового робота.

@@ -16,7 +16,6 @@ func NewLoader() *Loader {
 }
 
 func (l *Loader) Start() {
-	// Символы для лоадера
 	loaderChars := `|/-\`
 
 	go func() {
