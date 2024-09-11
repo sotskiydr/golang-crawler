@@ -2,14 +2,7 @@ module golang-crawler
 
 go 1.22.5
 
-replace dataworker => ./pkg/dataworker
-
-replace crawler => ./pkg/crawler
-
-require dataworker v0.0.0-00010101000000-000000000000
-
 require (
-	crawler v0.0.0-00010101000000-000000000000 // indirect
 	github.com/briandowns/spinner v1.23.1 // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"dataworker"
 	"flag"
 	"fmt"
 	"github.com/briandowns/spinner"
+	"golang-crawler/pkg/dataworker"
 	"time"
 )
 

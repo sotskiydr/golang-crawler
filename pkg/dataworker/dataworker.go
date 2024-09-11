@@ -1,8 +1,8 @@
 package dataworker
 
 import (
-	"crawler"
-	"crawler/spider"
+	"golang-crawler/pkg/crawler"
+	"golang-crawler/pkg/crawler/spider"
 	"strings"
 	"sync"
 )
